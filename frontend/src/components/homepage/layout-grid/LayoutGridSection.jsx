@@ -3,7 +3,7 @@ const Layoutgrid = () => {
     <section className="bg-white">
       <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-6 lg:grid-cols-6 gap-4 h-full">
-          {/* Wine Section */}
+        
           <div className="col-span-2 sm:col-span-1 md:col-span-3 lg:col-span-3 bg-gray-50 h-auto md:h-full flex flex-col">
             <a
               href=""
@@ -19,7 +19,7 @@ const Layoutgrid = () => {
             </a>
           </div>
 
-          {/* Gin and Other Drinks Section */}
+          
           <div className="col-span-2 sm:col-span-1 md:col-span-3 lg:col-span-3 bg-stone-50">
             <a
               href=""
@@ -34,7 +34,7 @@ const Layoutgrid = () => {
               <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Learning at NIILM</h3>
             </a>
 
-            {/* Whiskey and Vodka Section */}
+            
             <div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
               <a
                 href=""
@@ -63,7 +63,7 @@ const Layoutgrid = () => {
             </div>
           </div>
 
-          {/* Brandy Section */}
+         
           
         </div>
       </div>

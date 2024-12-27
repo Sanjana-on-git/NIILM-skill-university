@@ -54,7 +54,7 @@ const Footer = () => {
       <div className="py-4 text-sm text-center w-full flex flex-col md:flex-row items-center border-2 border-l-transparent border-r-transparent border-t-white border-b-white">
         <div className="w-full md:w-1/4 ">
           <div className="m-2 flex md:border-none border-2 border-t-transparent border-r-transparent border-b-transparent border-l-white">
-            <div className="w-12 h-12 border-2 rounded-full flex justify-center items-center m-auto">
+            <div className="w-15 h-15 border-2 rounded-full flex justify-center items-center m-auto">
               <FaPhoneAlt className="w-6 h-6" />
             </div>
             <div className="w-3/4 flex flex-col items-start ml-6">
@@ -65,18 +65,18 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/4">
           <div className="m-2 flex border-2 border-t-transparent border-r-transparent border-b-transparent border-l-white">
-            <div className="w-12 h-12 border-2 rounded-full flex justify-center items-center m-auto">
+            <div className="w-15 h-15 border-2 rounded-full flex justify-center items-center m-auto">
               <IoMdMail className="w-6 h-6" />
             </div>
-            <div className="w-3/4 flex flex-col items-start ml-6">
+            <div className="w-3/4 flex flex-col items-start ml-6 ">
               <p className="text-lg">EMAIL:</p>
-              <p className="text-xl font-bold">info@niilmuniversity.ac.in</p>
+              <p className="text-xl font-bold ">info@niilmuniversity.ac.in</p>
             </div>
           </div>
         </div>
         <div className="w-full md:w-1/4">
           <div className="m-2 flex border-2 border-t-transparent border-r-transparent border-b-transparent border-l-white">
-            <div className="w-12 h-12 border-2 rounded-full flex justify-center items-center m-auto">
+            <div className="w-15 h-15 border-2 rounded-full flex justify-center items-center m-auto ">
               <IoLocationSharp className="w-6 h-6" />
             </div>
             <div className="w-3/4 flex flex-col items-start ml-6">

@@ -1,10 +1,10 @@
 import Footer from "../components/Footer";
 import AcademicSwiperComponent from "../components/swiper/homepage/AcademicSwiperComponent";
-
+import Navbar from "../components/Navbar";
 const EvaluationPage = () => {
   return (
     <section>
-      {/* Header */}
+      <Navbar />
       <div className="relative w-full">
         <div className="relative h-80 overflow-hidden md:h-[28rem]">
           <div
@@ -89,7 +89,7 @@ const EvaluationPage = () => {
             discourages exploration, and promotes rote memorization.
             Consequently, exams become stress-inducing events where students
             encounter high stakes, with minimal margin for error due to the
-            make-or-break nature of the evaluation process. At Medhavi Skills
+            make-or-break nature of the evaluation process. At NIILM Skills
             University, we have revamped our assessment process to address these
             issues by incorporating more horizontal assessment modes rather than
             relying solely on a vertical approach. We have the following Primary

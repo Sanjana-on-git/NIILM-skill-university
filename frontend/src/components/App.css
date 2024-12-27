@@ -1,0 +1,494 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.container{
+  margin-top: 0;
+  background: url('https://images.shiksha.com/mediadata/images/1534240329phpROYHW0.jpeg');
+  height:500px;
+  background-size: cover;
+  
+}
+
+.container #text{
+  color: black;
+  
+  padding-top: 100px;
+  
+}
+.container-student{
+  margin-top: 0;
+  background: url('../public/images/experts/img22.png');
+  height:500px;
+  background-size: cover;
+}
+.container-sports{
+  background: url('https://upload.wikimedia.org/wikivoyage/en/0/08/AFBBanner2.jpg');
+}
+.container-News{
+  background: url('../public/images/experts/img37.png');
+  background-size: cover;
+}
+.container-Media{
+  background: url('../public/images/experts/img39.JPG');
+  background-size: cover;
+}
+.container-News #text{
+  color: #040404;
+  padding-left: 70px;
+}
+
+#text{
+  margin-top: 0;
+  padding-top: 400px;
+  padding-left: 40px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+#text2{
+  padding: 30px;
+}
+#vdo{
+  border-radius: 12px;
+  margin-top: 20px;
+  
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.card2 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 250px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card2 img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+.card2:hover img {
+  transform: scale(1.05);
+}
+.card2-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+.flex{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px;
+
+  
+}
+.flex-vdos{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-left: 150px;
+
+  gap: 20px;
+}
+.img-cont img{
+  width: 940px;
+  height: 350px;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius:150px;
+  border:3px solid #043801;
+  padding: 5px;
+  transition: background-color 2s;
+}
+.img-cont img:hover{
+  background-color: #04380195;
+}
+
+#text3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.container-nep {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+.card-nep {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.card-nep:hover {
+  border: 2px solid rgb(92, 18, 0);
+  transition: 0.5 all ease-in-out;
+}
+
+
+.card-nep img {
+  width: 50px;
+  height: 50px;
+}
+.card-nep h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+.card-nep p {
+  margin: 5px 0 0;
+  color: #666;
+}
+.container-NEP2{
+  background: url('../public/images/experts/img19.png');
+  background-size: cover;
+}
+#img3{
+  margin-right: 30px;
+}
+#big-img{
+  height: 488px;
+}
+.flex-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.container-rnd{
+  background: url('https://pharmaoffer.com/wp-content/uploads/2024/01/RD6-jpg.webp');
+  background-size: cover;
+  height: 600px;
+}
+.container-rnd #text{
+  margin-left: 430px;
+  padding-top: 100px;
+  
+}
+.container-circulars #text{
+  margin-left: 500px;
+  padding-top: 350px;
+  color: #040404;
+}
+.container-circulars{
+  height: 450px;
+}
+.container-Happy{
+  background: url('../public/images/experts/img4.png');
+  background-size: cover;
+}
+.container-abc{
+  background: url('https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1356&h=668&fit=crop');
+  background-size: cover;
+  height: 400px;
+}
+.container-abc #text{
+  margin-left: 430px;
+  padding-top: 100px;
+  
+}
+.container-culture{
+  background: url('https://wimbledonvillage.com/wp-content/uploads/2023/09/Art-Culture-banner-image-person-in-gallery-viewing-paintings.jpg');
+  background-size: cover;
+}
+
+.container-NSS{
+background: url('../public/images/experts/img9.png');
+background-size: cover;
+
+}
+#text2{
+line-height: 3;
+}
+.container-NSS #text{
+color: #040404;
+}
+.container-SEDG{
+background: url('../public/images/experts/img3.png');
+background-size: cover;
+}
+.container-Blogs{
+background: url('https://live.staticflickr.com/4401/36675786633_c9f864d11f_b.jpg');
+background-size: cover;
+}
+.container-Blogs #text{
+color: #040404;
+}
+.container-NewsLetter{
+background: url('../public/images/experts/img34.JPG');
+background-size: cover;
+}
+.container-circulars{
+background: url('../public/images/experts/img36.png');
+background-size: cover;
+}
+iframe{
+  padding: 20px;
+  border: 4px solid rgb(149, 2, 2);
+  border-radius: 15px;
+  background-color: #09480169;
+}
+#img-abc{
+  border: 3px solid rgb(93, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+}
+.container-expert {
+  display: flex;
+  max-width: 700px;
+  margin: 20px;
+  display: inline;
+
+}
+.profile {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.profile .content {
+  text-align: center;
+}
+.profile .content h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #040404;
+}
+.profile .content p {
+  font-size: 1em;
+  color: #232323;
+  margin: 10px 0;
+}
+.profile .content .quote {
+  font-size: 2em;
+  color: #101010;
+}
+.profile .content .name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #1a1a1a;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.profile .content .title {
+  font-size: 0.8em;
+  color: #040404;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.profile .content .description {
+  font-size: 0.9em;
+  color: #043801;
+  text-align: left;
+  font-style: italic;
+}
+.profile.blue {
+  background-color: #2a9d8f;
+  color: #ffffff;
+}
+.profile.orange {
+  background-color: #e76f51;
+  color: #ffffff;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+  
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+  border: 6px solid rgb(0, 55, 20);
+}
+.gallery-item {
+  box-sizing: border-box;
+}
+.gallery-item.large {
+  grid-column: span 2;
+}
+.gallery-item.medium {
+  grid-column: span 1;
+}
+.gallery-item.small {
+  grid-column: span 1;
+}
+#img-gallery{
+background-color: #85c7f75d;
+padding: 10px;
+}
+#img-gallery2{
+background-color: #85f7d55d;
+padding: 10px;
+}
+@media (max-width: 768px) {
+  .gallery {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-item.large, .gallery-item.medium, .gallery-item.small {
+      grid-column: span 1;
+  }
+}
+@media (max-width: 480px) {
+  .gallery {
+      grid-template-columns: 1fr;
+  }
+  .gallery-item.large, .gallery-item.medium, .gallery-item.small {
+      grid-column: span 1;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .card-nep {
+    width: 100%;
+  }
+  .card2 {
+      width: 100%;
+      margin: 10px 0;
+  }
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding: 50px;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.5s;
+  border: 1px solid grey;
+}
+.card:hover{
+box-shadow: 4px 3px 10px  #04040466;
+}
+#card-img {
+  padding: 10px;
+  border-radius: 20px;
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 0 10px;
+  transition: color 0.5s;
+}
+.card-title:hover{
+color: rgb(166, 1, 1);
+
+}
+
+.card-date {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+.card-date i {
+  margin-right: 5px;
+}
+.card-description {
+  font-size: 0.9em;
+  color: #6c757d;
+}
+#image3{
+width: 788px;
+height: 459px;
+}
+#image1{
+width: 988px;
+height: 675px;
+}
+#img-cont0{
+width: 488px;
+height: 488px;
+aspect-ratio: 1;
+}
+#btn{
+color: white;
+background-color: rgb(129, 0, 0);
+padding: 10px;
+border-radius: 3px;
+transition: box-shadow 1s;
+transition: background-color 2s;
+}
+#btn:hover{
+background-color: rgb(1, 93, 38);
+box-shadow: 1px 2px 20px #5830fa;
+}
+.flex-media{ 
+gap: 20px;
+display: flex;
+flex-wrap: wrap;
+}
+.btn2{
+border: 4px solid rgb(74, 0, 0);
+background-color: rgba(255, 0, 0, 0.734);
+border-top-right-radius: 13px;
+border-bottom-left-radius: 13px;
+padding: 15px;
+margin: 20px;
+transition: border-radius 1s;
+transition: background-color 1s;
+}
+.btn2:hover{
+border-top-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-top-left-radius: 13px;
+border-bottom-right-radius: 13px;
+background-color: #043801a4;
+}
